@@ -1,5 +1,5 @@
 # Site settings
-baseURL = ""
+baseURL = "claudiorossi.com.br"
 languageCode = "pt-BR"
 title = "Psicanálise - Claudio de Carvalho Rossi"
 theme = "hugo-split-theme"
@@ -10,7 +10,7 @@ relativeURLs = true
 uglyURLs = true
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "G-2R75XLLYJR"
 
 # Copyright
 copyright = "&copy;2023 Claudio de C. Rossi"
@@ -22,7 +22,7 @@ copyright = "&copy;2023 Claudio de C. Rossi"
   description = "Oferece psicanálise online para adultos."
 
   # Favicon
-#  favicon = "favicon.ico"
+favicon = "psi.png"
 
   # Section - Visual
   [params.visual]
