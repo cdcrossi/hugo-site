@@ -9,53 +9,52 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 relativeURLs = true
 uglyURLs = true
 
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = "G-2R75XLLYJR"
-
 # Copyright
 copyright = "&copy;2023 Claudio de C. Rossi"
 
 [params]
+# Enter your tracking code to enable Google Analytics
+googleAnalyticsID = "G-2R75XLLYJR"
 
-  # Metadata for search engines and social sharing
-  author = "Claudio de Carvalho Rossi"
-  description = "Oferece psicanálise online para adultos."
+# Metadata for search engines and social sharing
+author = "Claudio de Carvalho Rossi"
+description = "Oferece psicanálise online para adultos."
 
-  # Favicon
+# Favicon
 favicon = "psi.png"
 
-  # Section - Visual
-  [params.visual]
+# Section - Visual
+[params.visual]
 
-    # Image
-    [params.visual.image]
-      enable = true
-      file = "foto.jpg"
-      position = "center center"
+# Image
+[params.visual.image]
+enable = true
+file = "foto.jpg"
+position = "center center"
 
-  # Links
-  #
-  # Links List #1
-  [[params.links]]
-    [params.links.list1]
-      heading = ""
+# Links
+#
+# Links List #1
+[[params.links]]
+[params.links.list1]
+heading = ""
 
-      [[params.links.list1.link]]
-        text = "Código de Ética"
-        url = "https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf"
-        new_tab = true # new tab
+[[params.links.list1.link]]
+text = "Código de Ética"
+url = "https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf"
+new_tab = true # new tab
 
-  # Links List #2
-  [[params.links]]
-    [params.links.list2]
-      heading = ""
+# Links List #2
+[[params.links]]
+[params.links.list2]
+heading = ""
 
-      [[params.links.list2.link]]
-        text = "Autorizado e-Psi"
-        url = "https://e-psi.cfp.org.br/cadastro-simplificado/psicologasCadastradas"
+[[params.links.list2.link]]
+text = "Autorizado e-Psi"
+url = "https://e-psi.cfp.org.br/cadastro-simplificado/psicologasCadastradas"
 
 
-  # The original template is released under the Creative Commons Attribution 3.0 License.
-  # Please keep the original attribution link when using for your own project.
-  # If you'd like to use the template without the attribution, you can check out
-  # the license option via the template author's website: https://onepagelove.com/split
+# The original template is released under the Creative Commons Attribution 3.0 License.
+# Please keep the original attribution link when using for your own project.
+# If you'd like to use the template without the attribution, you can check out
+# the license option via the template author's website: https://onepagelove.com/split
