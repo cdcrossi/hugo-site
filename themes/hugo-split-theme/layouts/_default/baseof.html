@@ -2,7 +2,9 @@
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 
 <head>
-  {{ partial "analytics-gtag.html" . }}
+  {{ if .Site.Params.GoogleAnalyticsID }}
+    {{ partial "analytics-gtag.html" . }}
+  {{ end }}
   {{ partial "head" . }}
 </head>
 
