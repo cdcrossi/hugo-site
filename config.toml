@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "claudiorossi.com.br"
+baseURL = ""
 languageCode = "pt-BR"
 title = "Psicanálise - Claudio de Carvalho Rossi"
 theme = "hugo-split-theme"
