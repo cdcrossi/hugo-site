@@ -14,7 +14,7 @@ copyright = "&copy;2023 Claudio de C. Rossi"
 
 [params]
 # Enter your tracking code to enable Google Analytics
-googleAnalyticsID = "G-2R75XLLYJR"
+googleAnalytics = "G-2R75XLLYJR"
 
 # Metadata for search engines and social sharing
 author = "Claudio de Carvalho Rossi"
